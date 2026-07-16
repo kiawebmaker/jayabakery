@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Bakery</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FontAwesome untuk ikon sosial media -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <!-- Logo Gambar -->
+            <a href="#" class="logo">
+                <img src="./img/logo1.png" alt="Logo Web">
+            </a>
+
+            <div class="nav-menu">
+                <a href="#" class="nav-link">Beranda</a>
+                <a href="#" class="nav-link">Tentang</a>
+                <a href="#" class="nav-link">Toko</a>
+                <a href="#" class="nav-link">Berita</a>
+                <a href="#" class="nav-link">Karier</a>
+                <a href="#" class="nav-link">Layanan</a>
+                <a href="#" class="nav-link btn-kontak">Kontak</a>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-slider-container">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./img/1.jpg');">
+                <div class="slide-content">
+                    <h1>Selamat Datang</h1>
+                    <p>Solusi terbaik untuk bisnis Anda.</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./img/2.jpg');">
+                <div class="slide-content">
+                    <h1>Kreativitas Tanpa Batas</h1>
+                    <p>Wujudkan ide brilian Anda bersama kami.</p>
+                </div>
+            </div>
+            <div class="slide" style="background-image: url('./img/3.jpg');">
+                <div class="slide-content">
+                    <h1>Teknologi Terkini</h1>
+                    <p>Mendukung performa maksimal website Anda.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="prev" id="prev">&#10094;</button>
+        <button class="next" id="next">&#10095;</button>
+
+        <div class="dots-container" id="dots-container"></div>
+    </section>
+
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Katalog Produk</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Temukan kelezatan berkualitas dengan harga terbaik hari ini.</p>
+    </header>
+
+    <main class="produk-container">
+       
+        <div class="produk-card">
+            <img src="./img/Produk/1.jpeg" alt="Nama Produk 1">
+            <div class="produk-info">
+                <h3>Singapore Kaya Toast</h3>
+                <span class="harga">Rp 14.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/2.jpg" alt="Nama Produk 2">
+            <div class="produk-info">
+                <h3>Multi Grain Smoked Beef</h3>
+                <span class="harga">Rp 15.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/3.jpg" alt="Nama Produk 3">
+            <div class="produk-info">
+                <h3>Roti Tawar Kering</h3>
+                <span class="harga">Rp 12.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/4.jpg" alt="Nama Produk 4">
+            <div class="produk-info">
+                <h3>Roti Lady Finger Beef</h3>
+                <span class="harga">Rp 16.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/5.jpg" alt="Nama Produk 5">
+            <div class="produk-info">
+                <h3>Roti Tawar Premium</h3>
+                <span class="harga">Rp 20.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/6.jpg" alt="Nama Produk 6">
+            <div class="produk-info">
+                <h3>Roti Mexican Coffee</h3>
+                <span class="harga">Rp 14.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/7.jpg" alt="Nama Produk 7">
+            <div class="produk-info">
+                <h3>Roti Mocca Mesis</h3>
+                <span class="harga">Rp 11.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/8.jpg" alt="Nama Produk 8">
+            <div class="produk-info">
+                <h3>Roti Bakso Sapi</h3>
+                <span class="harga">Rp 10.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/9.jpg" alt="Nama Produk 9">
+            <div class="produk-info">
+                <h3>Roti Coklat</h3>
+                <span class="harga">Rp 15.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/10.jpg" alt="Nama Produk 10">
+            <div class="produk-info">
+                <h3>Roti Coklat Keju</h3>
+                <span class="harga">Rp 16.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/11.jpg" alt="Nama Produk 11">
+            <div class="produk-info">
+                <h3>Danish Coklat Belepotan</h3>
+                <span class="harga">Rp 14.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+        
+        <div class="produk-card">
+            <img src="./img/Produk/12.jpg" alt="Nama Produk 12">
+            <div class="produk-info">
+                <h3>Korean Garlic Cheese</h3>
+                <span class="harga">Rp 12.000</span>
+                <button class="btn-beli">Beli Sekarang</button>
+            </div>
+        </div>
+    </main>
+
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Menu Favorit</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Temukan kelezatan berkualitas dengan harga terbaik hari ini.</p>
+    </header>
+    <section class="menu-section">
+        <div class="menu-container">
+           
+            <div class="menu-item">
+                <img src="./img/Produk/13.jpg" alt="1">
+                <div class="menu-info">
+                    <h3>Roti Tawar Kering </h3>
+                    <span class="price">Rp 15.000</span>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="./img/Produk/14.jpg" alt="2">
+                <div class="menu-info">
+                    <h3>Roti Bagelen</h3>
+                    <span class="price">Rp 22.000</span>
+                </div>
+            </div>
+           
+            <div class="menu-item">
+                <img src="./img/Produk/15.jpg" alt="3">
+                <div class="menu-info">
+                    <h3>Roti Coklat Keju</h3>
+                    <span class="price">Rp 15.000</span>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="./img/Produk/16.jpg" alt="4">
+                <div class="menu-info">
+                    <h3>Roti Mocca Mesis</h3>
+                    <span class="price">Rp 12.000</span>
+                </div>
+            </div>
+           
+            <div class="menu-item">
+                <img src="./img/Produk/17.jpg" alt="5">
+                <div class="menu-info">
+                    <h3>Roti Tawar Premium</h3>
+                    <span class="price">Rp 10.000</span>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="./img/Produk/18.jpg" alt="6">
+                <div class="menu-info">
+                    <h3>Roti Tawar Premium</h3>
+                    <span class="price">Rp 10.000</span>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="./img/Produk/19.jpg" alt="7">
+                <div class="menu-info">
+                    <h3>Roti Tawar Premium</h3>
+                    <span class="price">Rp 10.000</span>
+                </div>
+            </div>
+            
+            <div class="menu-item">
+                <img src="./img/Produk/20.jpg" alt="8">
+                <div class="menu-info">
+                    <h3>Roti Tawar Premium</h3>
+                    <span class="price">Rp 10.000</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Daftar Toko</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Jaya Bakery (toko roti dan oleh-oleh populer di Lampung) memiliki sekitar 29 cabang yang tersebar di wilayah
+            Lampung dan sekitarnya.</p>
+    </header>
+    
+    <div class="gallery-container">
+        <!-- Kolom 1 -->
+        <div class="gallery-item">
+          <img src="./img/Kantor/rs.umum.jpg" alt="Produk 1">
+          <h3>Jaya Bakery RS.Umum</h3>
+                <p>Jl. Dr. Rivai, Penengahan, Kec. Tj. Karang Pusat, Kota Bandar Lampung, 35121</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+              
+        <div class="gallery-item">
+          <img src="./img/Kantor/teuku umar.jpg" alt="Produk 2">
+          <h3>Jaya Bakery Teuku Umar</h3>
+                <p>Jl. Teuku Umar, Penengahan, Kec. Tj. Karang Pusat, Kota Bandar Lampung, 35112</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+      
+        <div class="gallery-item">
+          <img src="./img/Kantor/royal.jpg" alt="Produk 3">
+          <h3>Jaya Bakery Royal</h3>
+                <p>Jl. ZA. Pagar Alam No.59, Labuhan Ratu, Kec. Kedaton, Kota Bandar Lampung, 35142</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+      
+        <div class="gallery-item">
+          <img src="./img/Kantor/pramuka.jpg" alt="Produk 4">
+          <h3>Jaya Bakery Pramuka</h3>
+                <p>Jl. Pramuka, Rajabasa, Kec. Rajabasa, Kota Bandar Lampung, 334545</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+       
+        <div class="gallery-item">
+          <img src="./img/Kantor/korpri.jpg" alt="Produk 5">
+          <h3>Jaya Bakery Korpri</h3>
+                <p>Jl. Ryacudu, Harapan Jaya, Kec. Sukarame, Kota Bandar Lampung, 35131</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/R Saleh.jpg" alt="Produk 6">
+          <h3>Jaya Bakery R. Saleh</h3>
+                <p>Jl. Raden Saleh, Durian Payung, Kec.Tj.Karang Pusat, Kota Bandar Lampung, 35221</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/imam bonjol.jpg" alt="Produk 7">
+          <h3>Jaya Bakery Imam Bonjol</h3>
+                <p>Jl. Imam Bonjol No.17, Langkapura, Kec. Kemiling, Kota Bandar Lampung, 35113</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/gedong air.jpg" alt="Produk 8">
+          <h3>Jaya Bakery Gedong Air</h3>
+                <p>jl. Ratulangi, Gedong Air, Kec. Tj. Karang Bar., Kota Bandar Lampung, 35118</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/kimaja.jpg" alt="Produk 9">
+          <h3>Jaya Bakery Pramuka</h3>
+                <p>Jl. Pramuka, Rajabasa, Kec. Rajabasa, Kota Bandar Lampung, 334545</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/diponegoro.jpg" alt="Produk 10">
+          <h3>Jaya Bakery kimaja</h3>
+                <p>Jl. Ki Maja No.20B, Kedaton, Kec. Way Halim, Kota Bandar Lampung, 35132</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+       
+        <div class="gallery-item">
+          <img src="./img/Kantor/antasari.jpg" alt="Produk 11">
+          <h3>Jaya Bakery Antasari</h3>
+                <p>Jl. P. Antasari No.67, Kedamaian, Kec. Kedamaian, Kota Bandar Lampung, 35122</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="./img/Kantor/legundi.jpg" alt="Produk 12">
+          <h3>Jaya Bakery Legundi</h3>
+                <p>Jl. Pulau Legundi No.134, Sukarame, Kec. Sukarame, Kota Bandar Lampung, 35133</p>
+          <a href="https://wa.me" class="wa-button" target="_blank">Hubungi via WhatsApp</a>
+        </div>
+      </div>
+      
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Berita</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Berita seputar Kegiatan dan Penghargaan dari Jaya Bakery</p>
+    </header>
+    <div class="container-berita">
+        <div class="kartu-berita">
+            <img src="./img/Berita/olehJB.jpg" alt="Judul Berita 1">
+            <div class="isi-kartu">
+                <h3>Oleh-Oleh Jaya Bakery</h3>
+                <p>Liburan ke Lampung rasanya belum lengkap kalau belum</p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/promomember.jpg" alt="Judul Berita 2">
+            <div class="isi-kartu">
+                <h3>Promo Khusus Member</h3>
+                <p>Promo yang bisa digunakan para member setia Jaya Bakery</p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/snackbox.jpg" alt="Judul Berita 3">
+            <div class="isi-kartu">
+                <h3>Snack Box</h3>
+                <p>Apa pun acaranya, selalu ada yang spesial dari Jaya Bakery</p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/peket hemat.jpg" alt="Judul Berita 4">
+            <div class="isi-kartu">
+                <h3>Paket Hemat</h3>
+                <p>Paket Khusus hemat dalam pembelian produk</p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/halal.jpg" alt="Judul Berita 5">
+            <div class="isi-kartu">
+                <h3>Sertifikat Halal Jaya Bakery</h3>
+                <p>Jaya Bakery di Lampung telah resmi bersertifikat halal. Semua produk roti, bolu tape, brownies, dan
+                    oleh-oleh khasnya dijamin aman serta halal untuk dikonsumsi. </p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/halaltok.jpg" alt="Judul Berita 6">
+            <div class="isi-kartu">
+                <h3>Logo Halal Jaya Bakery</h3>
+                <p>Jaya Bakery di Lampung telah resmi bersertifikat halal. Semua produk roti, bolu tape, brownies, dan
+                    oleh-oleh khasnya dijamin aman serta halal untuk dikonsumsi. </p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/loker1.jpg" alt="Judul Berita 7">
+            <div class="isi-kartu">
+                <h3>Loker Karier Jaya Bakery</h3>
+                <p>Jaya Bakery secara berkala membuka lowongan pekerjaan di area Bandar Lampung untuk posisi seperti
+                    Staf Produksi, Pramuniaga, dan Store Assistant. </p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+        <div class="kartu-berita">
+            <img src="./img/Berita/loker.jpg" alt="Judul Berita 8">
+            <div class="isi-kartu">
+                <h3>Loker Karier Jaya Bakery</h3>
+                <p>Jaya Bakery secara berkala membuka lowongan pekerjaan di area Bandar Lampung untuk posisi seperti
+                    Staf Produksi, Pramuniaga, dan Store Assistant. </p>
+                <a href="#" class="tombol-baca">Baca Selengkapnya</a>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">MAP dan Kontak</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Posisi dalam Peta Google Map dan Kontak yg Bisa dihubungi Jaya Bakery</p>
+    </header>
+    <section class="contact-section">
+        <div class="container">            
+            
+            <div class="contact-wrapper">
+                <!-- Kolom 1: Informasi Kontak & Sosial Media -->
+                <div class="contact-col">
+                    <h3>Media Sosial & Kontak</h3>
+                    <p>Jangan ragu untuk menghubungi kami melalui platform di bawah ini:</p>
+                    
+                    <div class="social-list">
+                        <a href="https://wa.me" class="social-item wa" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                        </a>
+                        <a href="https://facebook.com" class="social-item fb" target="_blank">
+                            <i class="fa-brands fa-facebook"></i> Facebook
+                        </a>
+                        <a href="https://instagram.com" class="social-item ig" target="_blank">
+                            <i class="fa-brands fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://twitter.com" class="social-item twitter" target="_blank">
+                            <i class="fa-brands fa-twitter"></i> Twitter
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+                    <h3>Lokasi Kami</h3>
+                    <div class="map-container">
+                        <!-- Ganti URL src dengan Google Maps Embed Anda -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d127108.21809745075!2d105.25409263863727!3d-5.396878503340403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sjaya%20bakery!5e0!3m2!1sen!2sid!4v1783234124464!5m2!1sen!2sid" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <h1 data-aos="fade-up" data-aos-duration="1000">Testimoni</h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="" 200">Komentar para konsumen setia Jaya Bakery</p>
+    </header>
+    <div class="testimoni-container">
+        <div class="testimoni-slide">
+            <img src="./img/Testimoni/a.jpg" alt="Testimoni 1">
+            <p>"Layanan sangat cepat dan memuaskan!"</p>
+            <h4>Mina Bunga Lestari</h4>
+        </div>
+        <div class="testimoni-slide">
+            <img src="./img/Testimoni/b.jpg" alt="Testimoni 2">
+            <p>"Kualitas produk premium, sangat direkomendasikan."</p>
+            <h4>Siti Aisyah</h4>
+        </div>
+        <div class="testimoni-slide">
+            <img src="./img/Testimoni/c.jpg" alt="Testimoni 3">
+            <p>"Harga terjangkau dan pelayanan ramah."</p>
+            <h4>Jihan Fahira</h4>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Kolom 1: Tentang -->
+            <div class="footer-col">
+                <h3>Tentang Kami</h3>
+                <p>Jaya Bakery (toko roti dan oleh-oleh populer di Lampung) memiliki sekitar 29 cabang yang tersebar di wilayah Lampung dan sekitarnya.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Tautan Cepat</h3>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Layanan</a></li>
+                    <li><a href="#">Portofolio</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Hubungi Kami</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Bandar Lampung, Indonesia</li>
+                    <li><i class="fas fa-envelope"></i> jayabakery@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +62 212 0707 7070</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Copyright 2026 by <span>Bambang Iskarno</span>. All Right Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
