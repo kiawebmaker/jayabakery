@@ -71,9 +71,7 @@ body {
     display: none;
     cursor: pointer;
     margin-top: 15px;
-    /* Sesuaikan nilai ini sesuai kebutuhan */
     margin-bottom: 10px;
-    /* Sesuaikan nilai ini sesuai kebutuhan */
 }
 
 .bar {
@@ -330,9 +328,7 @@ header h1 {
     .produk-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* Membagi menjadi 2 kolom sama besar */
         gap: 5px;
-        /* Jarak antar kolom dan baris */
         padding: 5px;
     }
 }
@@ -340,7 +336,6 @@ header h1 {
 .container-link {
     display: flex;
     gap: 20px;
-    /* Jarak antar link */
     justify-content: center;
 }
 
@@ -413,25 +408,22 @@ text-align: center;
 }
 
 .menu-info h3 {
-    font-size: 19px;
+    font-size: 15px;
     color: #222;
     margin-bottom: 10px;
 }
 
 .price {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #e67e22;
-    /* Warna Oranye / Aksen Makanan */
 }
 
 @media (max-width: 600px) {
     .menu-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* Membagi menjadi 2 kolom sama besar */
         gap: 5px;
-        /* Jarak antar kolom dan baris */
         padding: 5px;
     }
 }
@@ -496,9 +488,7 @@ header {
     .gallery-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* Membagi menjadi 2 kolom sama besar */
         gap: 5px;
-        /* Jarak antar kolom dan baris */
         padding: 5px;
     }
   }
@@ -506,9 +496,7 @@ header {
 .container-berita {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* Default: 4 kolom sama lebar */
     gap: 20px;
-    /* Jarak antar kolom dan baris */
     padding: 20px;
     max-width: 1300px;
     margin: 0 auto;
@@ -596,7 +584,7 @@ header {
 
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Membagi rata 2 kolom */
+    grid-template-columns: 1fr 1fr; 
     gap: 30px;
 }
 
@@ -663,11 +651,9 @@ header {
     position: relative;
     width: 100%;
     max-width: 600px;
-    /* Lebar maksimal slider */
     margin: 0 auto;
     overflow: hidden;
     height: 300px;
-    /* Sesuaikan tinggi dengan kebutuhan */
     margin-top: 15px;
 }
 
